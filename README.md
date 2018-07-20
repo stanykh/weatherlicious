@@ -24,5 +24,5 @@ export OWM_APPID=<your APPID here>
 
 # Testing with CURL
 ```
-curl http://localhost:8088/owm/city/New%20York
+curl http://localhost:8080/owm/city/New%20York
 ```
