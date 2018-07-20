@@ -1,0 +1,28 @@
+{
+  "name": "weatherlicious",
+  "version": "0.0.1",
+  "description": "Weather API Proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "proxy"
+  ],
+  "author": "Stanley Yong",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "chai": "^4.1.2",
+    "chai-http": "^2.0.1",
+    "express": "^4.13.3",
+    "moment": "^2.22.1",
+    "nconf": "^0.10.0",
+    "util": "^0.10.3",
+    "openweathermap-node": "^1.1.2",
+    "hashtable": "^2.0.2"
+  }
+}
