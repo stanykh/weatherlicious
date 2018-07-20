@@ -7,7 +7,7 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY . /usr/tmp/weatherlicious
 
 EXPOSE 8080
 CMD [ "npm", "start" ]

@@ -2,8 +2,6 @@
 const cityValidator = require('../helpers/city-validator');
 const weatherResult = require('../helpers/weather-result');
 const owmWrapper = require('openweathermap-node');
-
-'use strict';
 const nconf = require('nconf');
 nconf.argv().env();
 const owmAppId = nconf.get('OWM_APPID');
