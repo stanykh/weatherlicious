@@ -2,7 +2,7 @@
   "name": "weatherlicious",
   "version": "0.0.1",
   "description": "Weather API Proxy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
@@ -10,10 +10,13 @@
   "keywords": [
     "weather",
     "api",
-    "proxy"
+    "proxy",
+    "docker",
+    "openweathermap",
+    "openweathermap-node"
   ],
   "author": "Stanley Yong",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.10",
     "chai": "^4.1.2",
