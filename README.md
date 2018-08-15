@@ -32,5 +32,5 @@ curl http://localhost:8080/owm/city/New%20York
 
 # Docker
 ```
-docker run -p 8080:8080 -e "OWM_APPID=Your OpenWeatherMap APPID" -d <IMAGE_NAME>
+docker run -p 8080:8080 -e "OWM_APPID=Your OpenWeatherMap APPID" -d <CITY_NAME>
 ```
